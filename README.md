@@ -1,6 +1,4 @@
-from pathlib import Path
 
-content = """<!-- Advanced Profile README for KaveeshJeffry -->
 
 <!-- HERO --------------------------------------------------------------->
 <p align="center">
@@ -111,7 +109,3 @@ content = """<!-- Advanced Profile README for KaveeshJeffry -->
 - 🖥️ Portfolio: <a href="https://kaveeshjeffry.github.io/MY-Portfolio">kaveeshjeffry.github.io/MY-Portfolio</a>  
 - ✉️ Email: <a href="mailto:kaveeshgg@gmail.com">kaveeshgg@gmail.com</a>
 """
-
-path = Path("/mnt/data/KaveeshJeffry_README_software_engineer.md")
-path.write_text(content, encoding="utf-8")
-path.as_posix()
